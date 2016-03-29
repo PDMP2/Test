@@ -8,6 +8,8 @@ public class Main {
 			System.out.println("Yes");
 		}
 		
+		System.out.println("END");
+		
 	}
 	
 	public static boolean test1(){
