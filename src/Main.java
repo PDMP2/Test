@@ -8,7 +8,7 @@ public class Main {
 			System.out.println("Yes");
 		}
 		
-		add(1,2,3);
+		//add(1,2,3);
 		
 		System.out.println("END");
 		
