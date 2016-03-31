@@ -2,7 +2,11 @@
 public class Main {
 	public static void main(String[] args){
 		
-		System.out.println("Hello world!");
+		Flight f = new Flight(3);
+		
+		Fas f2 = new Fas();
+		
+		f2.printSum();
 		
 		if(test1() && test2()){
 			System.out.println("Yes");
