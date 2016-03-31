@@ -6,7 +6,7 @@ public class Main {
 		
 		Fas f2 = new Fas();
 		
-		f2.printSum();
+		((Flight)f2).printSum();
 		
 		if(test1() && test2()){
 			System.out.println("Yes");
