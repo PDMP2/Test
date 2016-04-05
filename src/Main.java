@@ -8,6 +8,10 @@ public class Main {
 		((Fas)obj).printSum();
 		((Flight)obj).printSum();
 		
+		if(obj instanceof Flight){
+			System.out.println("It' Fas Class!");
+		}
+		
 		/*
 		 * Flight f3 = new Fas();
 		 * 
