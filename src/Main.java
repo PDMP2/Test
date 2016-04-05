@@ -1,14 +1,21 @@
 
 public class Main {
 	public static void main(String[] args) {
-
-		Flight f3 = new Fas();
-
-		((Fas) f3).FS();
-
-		f3.printSum();
-
+		
+		Object obj = new Fas();
+		
+		((Fas)obj).FS();
+		((Fas)obj).printSum();
+		((Flight)obj).printSum();
+		
 		/*
+		 * Flight f3 = new Fas();
+		 * 
+		 * ((Fas) f3).FS();
+		 * 
+		 * f3.printSum();
+		 * 
+		 * 
 		 * Flight f = new Flight(3);
 		 * 
 		 * Fas f2 = new Fas();
