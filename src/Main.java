@@ -4,12 +4,11 @@ public class Main {
 		
 		Object obj = new Fas();
 		
-		((Fas)obj).FS();
 		((Fas)obj).printSum();
-		((Flight)obj).printSum();
 		
 		if(obj instanceof Flight){
-			System.out.println("It' Fas Class!");
+			Flight tmp1 = (Flight)obj;
+			tmp1.printSum();
 		}
 		
 		/*
